@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right,#7000f0,#06bdf5);
+    line-height: 0.5;
+}
+.calci{
+
+    width: 500;
+    padding-top: 100;
+    padding-bottom: 100;
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(-50% -50%);
+    transition: 0.25px;
+    text-align: center;
+}
+
+#display{
+    border: none;
+    background: white;
+    border-radius: 30px;
+    width: 245;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60;
+    margin: auto;
+    color: black;
+    border: 2px white;
+}
+
+.btndesign{
+       width: 55;
+       height: 55;
+       font-size: 20;
+       font-family: sans-serif;
+       font-weight: 300;
+       border-radius: 30px;
+       margin: 1.5;
+       border: none;
+       padding-top: -1;
+       background: white;
+}
+
+.operatordesign{
+       width: 55;
+       height: 55;
+       font-size: 20;
+       font-family: sans-serif;
+       font-weight: 300;
+       border-radius: 30px;
+       margin: 1.5;
+       border: none;
+       padding-top: -1;
+       transition: 0.25px;
+       cursor: pointer;
+       background: white;
+}
+
+
+.operatordesign:hover{
+    background-color: rgba(42, 213, 219, 0.856);
+}
+#zero{
+    width: 116;
+       height: 55;
+       font-size: 20;
+       font-family: sans-serif;
+       font-weight: 300;
+       border-radius: 30px;
+       margin: 1.5;
+       border: none;
+       padding-top: -1;
+       background: white;
+}
+ 
+h1{
+    color: white;
+    margin-top: 60;
+    margin-right: 100;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 50;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+
+    
+
+ 
+h2{
+    color: white;
+    margin-top: 500;
+    margin-right: 100;
+    font-family: sans-serif;
+    font-size: 30;
+    font-weight: 700;
+    text-align-last: right;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+
+.container{
+    float: right;
+    margin: 200px, 200px;
+    padding: 75px;
+    margin-right: 150px;
+    width: 300px;
+    margin-top: 60px;
+
+}   
+
+.container h3{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 300px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    
+    
+
+}
+
+.container ul li{
+    padding : 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    padding-top: -1px;
+    line-height: 0.5px;
+    color: white;
+
+}
